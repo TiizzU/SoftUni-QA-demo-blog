@@ -28,7 +28,7 @@
 
             registrationPage.FillForm(user);
             registrationPage.RegisterButton.Click();
-            ////
+            
             // Assert
             Assert.That(homePage.HomePageTitle.Contains("List - My ASP.NET Application"), "But it was " + homePage.HomePageTitle);
         }
